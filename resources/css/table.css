@@ -1,0 +1,44 @@
+.div-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-b{
+	margin-top: 10px;
+	display: flex;
+	justify-content: start;
+	width: 333px;
+}
+
+.title-table {
+	margin: 10px 0 10px 0;
+	text-align: start;
+	width: 333px;
+}
+
+.tables {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.title-view {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th{
+	background-color: #d9d9d9;
+	padding: 2px 15px 2px 15px;
+}
+
+td {
+	padding: 2px;
+}
