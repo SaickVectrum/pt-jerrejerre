@@ -34,6 +34,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 					<th>Email</th>
 					<th>Nombre</th>
 					<th>Apellido</th>
+					<th>Revisor</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -42,6 +43,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 						<td><?= htmlspecialchars($usuario['email']) ?></td>
 						<td><?= htmlspecialchars($usuario['nombre']) ?></td>
 						<td><?= htmlspecialchars($usuario['apellido']) ?></td>
+						<td><?= htmlspecialchars($usuario['nombre_revisor'] . " - " . $usuario['apellido_revisor']) ?></td>
 					</tr>
 				<?php endforeach; ?>
 			</tbody>
@@ -54,6 +56,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 					<th>Email</th>
 					<th>Nombre</th>
 					<th>Apellido</th>
+					<th>Revisor</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -62,6 +65,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 						<td><?= htmlspecialchars($usuario['email']) ?></td>
 						<td><?= htmlspecialchars($usuario['nombre']) ?></td>
 						<td><?= htmlspecialchars($usuario['apellido']) ?></td>
+						<td><?= htmlspecialchars($usuario['nombre_revisor'] . " - " . $usuario['apellido_revisor']) ?></td>
 					</tr>
 				<?php endforeach; ?>
 			</tbody>
@@ -74,6 +78,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 					<th>Email</th>
 					<th>Nombre</th>
 					<th>Apellido</th>
+					<th>Revisor</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -82,6 +87,7 @@ $listaUsuariosEnEspera = $usuarios->obtenerUsuariosEnEspera();
 						<td><?= htmlspecialchars($usuario['email']) ?></td>
 						<td><?= htmlspecialchars($usuario['nombre']) ?></td>
 						<td><?= htmlspecialchars($usuario['apellido']) ?></td>
+						<td><?= htmlspecialchars($usuario['nombre_revisor'] . " - " . $usuario['apellido_revisor']) ?></td>
 					</tr>
 				<?php endforeach; ?>
 			</tbody>

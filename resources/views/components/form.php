@@ -19,6 +19,7 @@
 			<button type="submit" >Enviar formulario</button>
 			</div>
 		</form>
+		<!-- <a href="users/index.php"><button>Ver usuarios</button></a> -->
 	</div>
 	<script>
 		document.getElementById('archivo').addEventListener('change', function(event) {

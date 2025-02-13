@@ -7,5 +7,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     email VARCHAR(255) NOT NULL,
     nombre VARCHAR(255) NULL,
     apellido VARCHAR(255) NULL,
-    codigo INT NULL
+    codigo INT NULL,
+    id_revisor INT NULL,
+    FOREIGN KEY (id_revisor) REFERENCES revisores(id) ON DELETE SET NULL ON UPDATE CASCADE
 );
